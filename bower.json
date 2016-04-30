@@ -1,0 +1,25 @@
+{
+  "name": "Shopify Builder Test",
+  "version": "0.0.1",
+  "authors": [
+    "Alex Ross"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "masonry": "^4.1.0",
+    "imagesloaded": "^4.1.0",
+    "font-awesome": "^4.6.1",
+    "KineticJS": "kineticjs#^5.1.0",
+    "tether": "~1.3.2",
+    "jquery": "~2.2.3",
+    "bootstrap": "v4.0.0-alpha.2"
+  }
+}

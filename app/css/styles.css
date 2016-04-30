@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("Poiret-One"), url("../fonts/PoiretOne-Regular.ttf") format("truetype"); }
+
+body {
+  background: #eee; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poiret One", Arial, sans-serif; }
+
+a, a:hover, a:visited, a:focus {
+  color: #b18a53; }
+
+.btn-primary, .btn-primary:visited, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
+  background: #373a3c;
+  color: #b18a53;
+  border: none;
+  outline: none;
+  text-transform: uppercase; }
+
+.btn-primary:hover {
+  background: #3d4042;
+  color: #b18a53; }
+
+.btn-secondary, .btn-secondary:visited, .btn-secondary:focus, .btn-secondary:active, .btn-secondary:active:focus {
+  background: #b18a53;
+  color: #373a3c;
+  border: none;
+  outline: none;
+  text-transform: uppercase; }
+
+.btn-secondary:hover {
+  background: #b89461;
+  color: #373a3c; }
+
+.jumbotron {
+  background: transparent !important;
+  position: relative; }
+  .jumbotron .event-info p {
+    font-size: 1.5em;
+    font-weight: bold; }
+
+.jumbotron .container::before {
+  content: "";
+  background: url(../images/bullring.jpg) center;
+  background-size: cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.navbar-brand {
+  font-weight: 200; }
+
+nav.navbar {
+  border-radius: 0;
+  border-bottom: solid 2px #b18a53; }
+
+.loading {
+  display: none; }
+
+#loadMoreButton {
+  width: 100%;
+  padding: 10px 0; }
+
+.clock-item .inner {
+  height: 0px;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%; }
+
+.clock-canvas {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  height: 0px;
+  padding-bottom: 100%; }
+
+.text {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  width: 100%; }
+
+.text .val {
+  font-size: 40px;
+  margin: 0; }
+
+.text .type-time {
+  font-size: 14px; }
+
+.clock-item {
+  margin-bottom: 30px; }
+
+.card .post-type {
+  background: #b18a53;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 7px;
+  border-radius: 0 0 3px 3px; }
+
+.card .card-link {
+  margin-bottom: 20px; }
+
+.twitter-post h4 {
+  margin-top: 25px; }
+
+.filter-row {
+  padding-bottom: 30px; }
+  .filter-row .btn {
+    width: 100%; }
